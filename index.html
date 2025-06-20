@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Wild CRM Demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Bienvenido a Wild CRM</h1>
+<p>Esta es una página de ejemplo.</p>
+<div class="tts-container">
+    <textarea id="tts-text" placeholder="Escribe tu texto aqui" rows="6"></textarea>
+    <button onclick="generateAudio()">Generar Audio</button>
+    <a id="download" href="#" download="speech.mp3" style="display:none">Descargar MP3</a>
+</div>
+<script src="background.bundle.js"></script>
+<script src="injectScript.bundle.js"></script>
+<script src="tts.js"></script>
+</body>
+</html>
